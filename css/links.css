@@ -14,6 +14,7 @@
 
 .link img{
     width: 20%;
+    object-fit: contain;
     aspect-ratio: 1/1;
     padding: 4% 0px;
     padding-left: 5%;
@@ -28,19 +29,6 @@
         brightness(90%) 
         contrast(94%);
 }
-
-.link img:hover{
-    filter: brightness(0) 
-            saturate(100%) 
-            invert(21%) 
-            sepia(14%) 
-            saturate(4115%) 
-            hue-rotate(162deg) 
-            brightness(94%) 
-            contrast(90%);
-
-}
-
 
 .link a{
     width: 80%;
