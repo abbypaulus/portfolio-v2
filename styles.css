@@ -15,18 +15,29 @@ body, main, header, p, h1, h2, h3, h4, h5, h6, footer, li{
 h1, h2{
 	width: 100%;
 	text-align: center;
-	color:#e1e1e1;
+    color: #1E1E1E;
 	text-decoration: solid;
 }
 
 body{
     background-color: #DFB1CB;
     width: 100%;
-    color: #1E1E1E;
     display: flex;
     flex-flow: column;
+	color:#e1e1e1;
+    color: #1E1E1E;
 }
  
 /* navbar*/
+#homeLogo{
+	width: 5%;
+	object-fit: contain;
+	background: #030d22;
+}
 
+#homeLogo img{
+	background: #030d22;
+	height: 19px;
+	margin: auto;
+}
 /* footer */
