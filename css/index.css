@@ -67,6 +67,14 @@ main p{
             hue-rotate(151deg) 
             brightness(106%) 
             contrast(76%);
+    filter: brightness(0) 
+            saturate(100%) 
+            invert(21%) 
+            sepia(14%) 
+            saturate(4115%) 
+            hue-rotate(162deg) 
+            brightness(94%) 
+            contrast(90%);
 }
 
 /* footer */
@@ -90,6 +98,7 @@ footer .bottom{
 footer .bottom p{
 	width: 100%;
 	text-align: center;
+    color: #e1e1e1;
 }
 
 /*Media Queries Mobile, Tablet, Desktop*/
