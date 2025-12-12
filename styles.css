@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+*{
+    font-family: 'Segoe UI';
+    box-sizing: border-box;
+}
+
+body, main, header, p, h1, h2, h3, h4, h5, h6, footer, li{
+	display: block;
+	margin: 0px;
+	padding: 0px;
+    color: #1E1E1E;
+}
+
+h1, h2{
+	width: 100%;
+	text-align: center;
+	color:whitesmoke;
+	text-decoration: solid;
+}
+
+body{
+    background-color: #DFB1CB;
+    width: 100%;
+    color: #1E1E1E;
+    display: flex;
+    flex-flow: column;
+}
+ 
+/* navbar*/
+
+/* footer */
