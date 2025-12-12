@@ -56,9 +56,10 @@ header a{
 	text-decoration: none;
 	padding: 10px 0px;
 	color: #e1e1e1;
+    font-weight: 600;
 }
 
 header ul a:hover {
-	background: #e1e1e1;
+	background: #0F4761;
 }
 /* footer */
