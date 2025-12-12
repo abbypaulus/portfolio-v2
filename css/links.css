@@ -20,13 +20,13 @@
     filter: brightness(0)
         saturate(100%);
     filter: brightness(0) 
-            saturate(100%) 
-            invert(20%) 
-            sepia(27%) 
-            saturate(4712%) 
-            hue-rotate(304deg) 
-            brightness(90%) 
-            contrast(96%);
+        saturate(100%) 
+        invert(98%) 
+        sepia(66%) 
+        saturate(1191%) 
+        hue-rotate(279deg) 
+        brightness(90%) 
+        contrast(94%);
 }
 
 .link img:hover{
