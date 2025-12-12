@@ -67,6 +67,108 @@ header ul a:hover {
 	background: #0F4761;
 }
 /* footer */
+footer{
+	background: #8D2055;
+	position: relative;
+	bottom: -1;
+	color: white;
+	padding: 0px;
+	margin: 0px;
+}
+
+footer .row.primary{
+	display: grid;
+	grid-template-columns: 2fr 1fr 1.5fr 2fr;
+	grid-template-rows: 1fr;
+	padding: 5px 25px;
+}
+
+footer .row.bottom{
+	grid-template-columns: 1fr;
+}
+
+footer .column{
+	width: 100%;
+	display: flex;
+	flex-flow: column;
+	padding: 5px;
+}
+
+footer .links{
+	width: 100%;
+	flex-flow: column;
+	padding: 5px;
+}
+
+footer #social *{
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+}
+
+footer #social ul{
+	flex-flow: row wrap;
+}
+
+footer #social li{
+	width: 50%;
+	padding: 10px 5px;
+}
+
+footer #social img{
+	margin: 0px 5px;
+}
+
+footer h3{
+	font-size: 16pt;
+	text-align: left;
+}
+
+footer ul{
+	list-style: none;
+	display: flex;
+	flex-flow: column;
+	padding: 0px;
+	margin: 0px;
+}
+
+footer .column.links li{
+	padding: 3px 0px;
+}
+
+footer .column.links a{
+	text-decoration: none;
+	color: #030d22;
+}
+
+footer img{
+	width: 30px;
+	aspect-ratio: 1/1;
+	object-fit: contain;
+	object-position: 0%;
+	margin: 0px;	
+	padding-right: 5px;
+	vertical-align: middle;
+}
+
+footer .column.links a:hover, footer img:hover {
+	filter: invert(46%) 
+			sepia(76%) 
+			saturate(750%) 
+			hue-rotate(163deg) 
+			brightness(98%) 
+			contrast(85%);
+	text-decoration: none;
+	color: #1e9be0;
+}
+
+footer .about p{
+	line-height: 1.5;
+	text-align: left;
+	font-size: 12pt;
+}
+
+/*Footer Bottom*/
 footer .bottom{
 	background: #0F4761;
 	position: fixed;
