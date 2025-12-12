@@ -63,3 +63,16 @@ header ul a:hover {
 	background: #0F4761;
 }
 /* footer */
+footer .bottom{
+	background: #0F4761;
+	position: fixed;
+	width: 100%;
+	display: flex;
+	margin: 0px;
+	padding: 10px 25px;	
+	color: #030d22;
+	text-align: center;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+}
