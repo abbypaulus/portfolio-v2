@@ -33,15 +33,9 @@ a{
 }
  
 /* navbar*/
-#homeLogo{
-	width: 5%;
-	object-fit: contain;
-	background: #030d22;
-}
-
 #homeLogo img{
 	background: #030d22;
-	height: 19px;
+	height: 50px;
 	margin: auto;
 }
 

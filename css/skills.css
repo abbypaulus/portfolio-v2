@@ -1,0 +1,5 @@
+.project img{
+    filter: invert(97%) 
+            grayscale(100%) 
+            opacity(0.6);
+}
