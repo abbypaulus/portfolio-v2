@@ -59,19 +59,23 @@ header a{
 	text-align: center;
 	text-decoration: none;
 	padding: 10px 0px;
-	color: #e1e1e1;
+	color: #0F4761;
     font-weight: 600;
+	border-bottom: #8D2055;
+	border-width: 3px;
 }
 
 header ul a:hover {
-	background: #0F4761;
+	color: #1E1E1E;
+	border-bottom: #1E1E1E;
 }
+
 /* footer */
 footer{
 	background: #8D2055;
 	position: relative;
 	bottom: -1;
-	color: white;
+	color: #e1e1e1;
 	padding: 0px;
 	margin: 0px;
 }
