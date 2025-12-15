@@ -50,12 +50,12 @@ header *{
 	padding: 0px;
 	flex: 100%;
 	top: 1;
+	width: 50%;
 }
 
 header a{
 	float: left;
-	background: #8D2055;
-	width: 19%;
+	width: 20%;
 	text-align: center;
 	text-decoration: none;
 	padding: 10px 0px;
